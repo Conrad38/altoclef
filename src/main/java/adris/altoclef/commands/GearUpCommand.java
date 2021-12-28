@@ -22,12 +22,10 @@ public class GearUpCommand extends Command {
         super("gearup", "Gets all missing diamond tools/armor");
     }
 
-    // this is a comment to test commit functionality
-    // seconds change for another go
+
 
     @Override
     protected void call(AltoClef mod, ArgParser parser) throws CommandException {
         mod.runUserTask(new GatherStrongGearTask(mod),this::finish);
     }
     }
-//
