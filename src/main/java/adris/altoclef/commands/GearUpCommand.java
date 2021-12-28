@@ -23,6 +23,7 @@ public class GearUpCommand extends Command {
     }
 
     // this is a comment to test commit functionality
+    // seconds change for another go
 
     @Override
     protected void call(AltoClef mod, ArgParser parser) throws CommandException {
