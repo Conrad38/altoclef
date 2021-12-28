@@ -22,7 +22,7 @@ public class GearUpCommand extends Command {
         super("gearup", "Gets all missing diamond tools/armor");
     }
 
-
+    // Hello World
 
     @Override
     protected void call(AltoClef mod, ArgParser parser) throws CommandException {
